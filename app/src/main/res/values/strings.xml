@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AndroidViewPager2</string>
+    <string name="app_name">Onboarding Screen</string>
+    <string name="get_started">Get Started</string>
 </resources>
