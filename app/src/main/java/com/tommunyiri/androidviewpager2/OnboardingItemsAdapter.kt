@@ -17,7 +17,7 @@ class OnboardingItemsAdapter(private val onboardingItems:List<OnboardingItem>):
         fun bind(onboardingItem: OnboardingItem){
             imageOnboarding.setImageResource(onboardingItem.onboardingImage)
             textTitle.text=onboardingItem.title
-            textTitle.text=onboardingItem.description
+            textDescription.text=onboardingItem.description
         }
     }
 
